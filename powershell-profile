@@ -1,0 +1,28 @@
+cd \code
+
+Function Set-GitUserStark(){
+    Set-GitUser -Company "stark"
+}
+
+Function Set-GitUser() {
+    [CmdletBinding()]
+    param (
+        [ValidateSet('stark', 'private')]
+        [string]$Company
+    )
+    Switch ($Company) {
+        'stark' {
+            $username = "Mads Thrane"
+            $email = "mads.thrane@stark.dk"
+        }
+        default {
+            $username = "Mads Thrane"
+            $email = "madsthrane@outlook.com"
+        }
+    }
+
+ 
+
+    git config user.email $email
+    git config user.name $username
+}
