@@ -1,83 +1,68 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-12-13T10:13:08.845-00:00",
+	"CreationDate" : "2024-10-13T18:27:48.700-00:00",
 	"Sources" : 
 	[
 		{
 			"Packages" : 
 			[
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Community"
-				},
-				{
-					"PackageIdentifier" : "Canonical.Ubuntu.2004"
-				},
-				{
-					"PackageIdentifier" : "Docker.DockerDesktop"
-				},
-				{
-					"PackageIdentifier" : "Git.Git"
-				},
-				{
-					"PackageIdentifier" : "Google.Chrome"
-				},
-				{
-					"PackageIdentifier" : "Hashicorp.Terraform"
-				},
-				{
-					"PackageIdentifier" : "Helm.Helm"
-				},
-				{
-					"PackageIdentifier" : "kalilinux.kalilinux"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Edge"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.AppInstaller"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Office"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.OneDrive"
-				},
-				{
-					"PackageIdentifier" : "PostgreSQL.pgAdmin"
-				},
-				{
-					"PackageIdentifier" : "SlackTechnologies.Slack"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.BingWallpaper"
-				},
-				{
-					"PackageIdentifier" : "PuTTY.PuTTY"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
-					"PackageIdentifier" : "LINQPad.LINQPad.7"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerToys"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.AzureCLI"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WebDeploy"
-				}
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudio.2022.Community"
+                },
+                {
+                    "PackageIdentifier": "Canonical.Ubuntu.2004"
+                },
+                {
+                    "PackageIdentifier": "Docker.DockerDesktop"
+                },
+                {
+                    "PackageIdentifier": "Git.Git"
+                },
+                {
+                    "PackageIdentifier": "Google.Chrome"
+                },
+                {
+                    "PackageIdentifier": "Mozilla.Firefox"
+                },
+                {
+                    "PackageIdentifier": "Hashicorp.Terraform"
+                },
+                {
+                    "PackageIdentifier": "Helm.Helm"
+                },
+                {
+                    "PackageIdentifier": "kalilinux.kalilinux"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.WindowsTerminal"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.Office"
+                },
+                {
+                    "PackageIdentifier": "PostgreSQL.pgAdmin"
+                },
+                {
+                    "PackageIdentifier": "SlackTechnologies.Slack"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.BingWallpaper"
+                },
+                {
+                    "PackageIdentifier": "PuTTY.PuTTY"
+                },
+                {
+                    "PackageIdentifier": "LINQPad.LINQPad.8"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudioCode"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.PowerToys"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.AzureCLI"
+                }
 			],
 			"SourceDetails" : 
 			{
@@ -88,5 +73,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.6.3421"
+	"WinGetVersion" : "1.8.1911"
 }
